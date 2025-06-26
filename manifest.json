@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Mindmap",
+  "version": "1.0",
+  "description": "Simple floating mindmap bubbles",
+  "action": {
+    "default_title": "Start Minmap"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs"]
+}
